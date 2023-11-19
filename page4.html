@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" >informations personnelles</a>
+        <a href="page2.html">Centres d'interet</a>
+        <a href="page3.html">certificats</a>
+        <a href="page4.html">propositions des stages</a>
+    </nav>
+    
+      
+    <table>
+        <tr>
+            <td>
+                <img src="cv.jpg" height="200" width="150">
+            </td>
+    <td> 
+        <h1> <i>Khadhraoui <br> Rifa</i></h1> 
+        <p> <small><i>Etudiente en Esprit </i></small></p>
+        <hr width="800"> 
+    </td>
+    </tr>
+    </table>
+        <h3> <b> Envoyer la demande:</b></h3>
+        <p>Puisque je suis une etudiente en esprit j'ai un stage d'été obligatoire donc je suis a la recheche d'un stage d'été en devoleppment <br>
+            se formulaire a facilité de me contacter  </p>
+        <form action="#" method="post"> 
+            <table>
+                <tr>
+                    <td>
+        <label for="nom de société">Nom de société:<span>*</span></label>
+    </td>
+    <td>
+        <input 
+        type="text" 
+        id="nom"
+        nom="nom" 
+        required minlength="3" 
+        maxlength="20" 
+        size="15">
+    </td>
+    </tr>
+        <br>
+     <tr>
+        <td>
+            <label for="add">Address
+            </label>
+        </td>
+        <td>
+                <textarea name="Address" 
+                id="Address" 
+                cols="30" 
+                rows="7"></textarea>
+            </td>
+            </tr>
+              <br>
+                <tr>
+                    <td>
+                <label for="phone"
+                >num de téléphone <span>*</span></label>
+            </td>
+            <td>
+                <input
+                type="number"
+                id="phone"
+                name="phone"
+                minlength="8"
+                required
+            />
+        </td>
+        </tr>
+            <br>
+              <tr>
+                <td>
+            <label for="drdv">Date de RDV </label>
+        </td>
+        <td>
+                 <input type="date" id="drdv" name="drdv" />
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email<span>*</span></label>
+                    </td>
+                    <td>
+                        <input
+                            type="email"
+                            placeholder="contact@exemple.com"
+                            name="email"
+                            id="email"
+                            required
+                        />
+                    </td>
+                </tr>
+                    <tr>
+                    <td>
+                        <label for="Pays">Pays:</label>
+                    </td>
+                    <td>
+                        <select name="Pays">
+                            <option value=""></option>
+                            <option value="tn">Tunisie</option>
+                            <option value="eu">Europe</option>
+                            <option value="am">amérique</option>
+
+                        </select>
+                    </td>
+                </tr>
+                 </tr>
+                    <td>
+                        <label>Saisir l'horaire de RDV</label>
+                    </td>
+                    <td><input type="time" min="09:00" max="17:30" required></td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label>Type d'entretien:</label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="radio" name="genre" value="p"checked>
+                            Présenciel
+                        </label>
+                        <label>
+                            <input type="radio" name="genre" value="d"checked>
+                            A distance 
+                        </label>
+                    </td>
+                </tr>
+                <td></td>
+                <td>
+                    <button type="Envoyer">Envoyer</button>
+                </td>
+
+                </table>
+                </form>
+            
+
+            
+               
+            
+        
+</body>
+</html>
