@@ -1,0 +1,213 @@
+body
+{
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: beige;
+}
+
+.part1{
+    background-color: black;
+    position: relative;
+}
+
+.nom{
+    color: rgb(253, 162, 174);
+    margin-left: 12%;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.statut{
+    color: white;
+    margin-left: 12%;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.image{
+    border: 2px solid white;
+    margin-left: 35%;
+    position: relative;
+    z-index: 3;
+    margin-top: 10%;
+}
+
+hr{
+    margin-left: 12%;
+}
+
+.contact{
+    background-color: rgb(253, 162, 174);
+    width: 16%;
+    z-index: 2;
+}
+
+.competences{
+    background-color: rgb(253, 162, 174);
+    width: 16%;
+    top: 90%;
+    z-index: 1;
+}
+
+.Langue{
+    background-color: rgb(253, 162, 174);
+    top: 160%;
+    width: 16%;
+    height: 52%;
+    z-index: 0;
+}
+
+.competences , .contact , .Langue {
+    padding-left: 1.5%;
+    padding-top: 2%;
+    margin-left: 1%;
+    margin-top: -3%;
+    position: absolute;
+    
+}
+
+.formation{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.experience{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.clubs{
+    padding-left: 10%;
+}
+
+.titre1{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.lang{
+    margin-top: -1%;
+    padding-top: 50%;
+}
+
+.titre2{
+    background-color: rgb(253, 162, 174);
+    padding-left: 1%;
+    letter-spacing: 4px;
+    font-size: 22px;
+}
+
+.form{
+    line-height: 27px;
+}
+
+.periode{
+    color: rgb(90, 85, 85);
+}
+
+.stage{
+    color: rgb(187, 73, 88);
+    padding-top: 2%;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.club{
+    color: rgb(187, 73, 88);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.drax{
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+.drax1{
+    padding-left: 4%;
+}
+
+.car{
+    font-weight: bold;
+}
+
+.car1{
+    padding-left: 4%;
+}
+
+.warda{
+    font-weight: bold;
+}
+
+.warda1{
+    padding-left: 4%;
+}
+
+.fr{
+    padding-top: 5%;
+}
+
+.titre11{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 30%;
+}
+
+.ul1{
+    margin-bottom: 20px;
+}
+
+.ex{
+    padding-top: 5%;
+}
+
+.titre111{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 14%;
+}
+
+.para{
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a1{
+    padding-left: 125px;
+    font-size: 20px;
+    color: rgb(187, 73, 88);
+}
+
+nav{
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.a1:hover{
+    color: rgb(138, 6, 6);
+}
+
+.a1:active{
+    color: black;
+}
+
+.colone2{
+    width: 150%;
+}
+
+
+
+
+
+

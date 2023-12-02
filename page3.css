@@ -1,0 +1,92 @@
+body
+{
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: beige;
+}
+
+.part1{
+    background-color: black;
+    position: relative;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.image{
+    border: 2px solid white;
+    margin-left: 35%;
+    position: relative;
+    z-index: 3;
+    margin-top: 10%;
+}
+
+.nom{
+    color: rgb(253, 162, 174);
+    margin-left: 12%;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.statut{
+    color: white;
+    margin-left: 12%;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.ligne{
+    margin-left: 12%;
+}
+
+.colone2{
+    width: 150%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.a1{
+    padding-left: 125px;
+    font-size: 20px;
+    color: rgb(187, 73, 88);
+}
+
+nav{
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.a1:hover{
+    color: rgb(138, 6, 6);
+}
+
+.a1:active{
+    color: black;
+}
+
+.certificats{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(187, 73, 88);
+}
+
+.certificat1{
+    border: 2px solid black;
+}
+
+.certificat2{
+    border: 2px solid black;
+}
+
+.para-certif1{
+    text-align: center;
+}
+
+.para-certif2{
+    text-align: center;
+}
