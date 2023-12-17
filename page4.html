@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="page4.css">
+    
 </head>
 <body>
     <nav>
@@ -31,21 +32,29 @@
         <p class="para">Puisque je suis une etudiente en esprit j'ai un stage d'été obligatoire donc je suis a la recheche d'un stage d'été en devoleppment <br>
             se formulaire a facilité de me contacter  </p>
             <div class="form">
-        <form action="#" method="post"> 
+        <form action="#" method="post" name="f"> 
             <table>
                 <tr>
                     <td>
-        <label for="nom de société">Nom de société:<span>*</span></label>
+        <label for="nomdesociete">Nom de société:<span>*</span></label>
     </td>
     <td>
         <input 
         type="text" 
-        id="nom"
-        nom="nom" 
-        required minlength="3" 
+        id="nomdesociete"
+        name="nomSociete" 
+        minlength="3" 
         maxlength="20" 
-        size="15">
+        size="15"
+        onkeyup="nameValidation()"
+        >
+
     </td>
+    <td  >
+            
+        <p style="color: red" id="nomEr"></p>
+      
+      </td>
     </tr>
         <br>
      <tr>
@@ -59,22 +68,31 @@
                 cols="30" 
                 rows="7"></textarea>
             </td>
+            <td >
+            
+                <p style="color: red" id="adressEr""></p>
+              
+              </td>
             </tr>
               <br>
                 <tr>
                     <td>
-                <label for="phone"
-                >num de téléphone <span>*</span></label>
+                <label for="phone">num de téléphone <span>*</span></label>
             </td>
             <td>
                 <input
-                type="number"
+                type="text"
                 id="phone"
                 name="phone"
                 minlength="8"
-                required
+                onkeyup="phoneValidation()"
             />
         </td>
+        <td >
+            
+            <p style="color: red" id="phoneEr"></p>
+          
+          </td>
         </tr>
             <br>
               <tr>
@@ -95,29 +113,51 @@
                             placeholder="contact@exemple.com"
                             name="email"
                             id="email"
-                            required
+                           
                         />
                     </td>
+                    <td >
+            
+                        <p style="color: red" id="emailEr"></p>
+                      
+                      </td>
                 </tr>
                     <tr>
                     <td>
                         <label for="Pays">Pays:</label>
                     </td>
                     <td>
-                        <select name="Pays">
-                            <option value=""></option>
+                        <select name="Pays"id="vide">
+                            <option value="" ></option>
                             <option value="tn">Tunisie</option>
                             <option value="eu">Europe</option>
-                            <option value="am">amérique</option>
+                            <option value="am">amérique </option>
+                            
 
                         </select>
                     </td>
+                    <td >
+            
+                        <p style="color: red" id="paysEr"></p>
+                      
+                      </td>
                 </tr>
                  </tr>
                     <td>
+                     
                         <label>Saisir l'horaire de RDV</label>
                     </td>
-                    <td><input type="time" min="09:00" max="17:30" required></td>
+                    <td><input type="time" id="time" min="09:00" max="17"
+                        onkeyup="rdvValidation()">
+                       
+                    </td>
+                    <td >
+            
+                        <p style="color: red" id="RDVEr"></p>
+                      
+                      </td>
+
+                    
                 </tr>
                  <tr>
                     <td>
@@ -136,7 +176,7 @@
                 </tr>
                 <td></td>
                 <td>
-                    <button type="submit" class="boutton">Envoyer</button>
+                    <div  class="boutton" onclick="verification()">Envoyer</div>
                 </td>
 
                 </table>
@@ -144,9 +184,9 @@
             </div>
             
 
-            
+       
                
-            
+            <script src="javaScript.js"></script>    
         
 </body>
 </html>
